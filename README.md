@@ -1,6 +1,6 @@
-# Fork of github.com/microsoft/variable-substitution
+# Fork of [microsoft/variable-substitution](https://github.com/microsoft/variable-substitution)
 
-This is a fork from github.com/microsoft/variable-substitution, to fix the 'node12 is being deprecated' warning.
+This is a fork from [microsoft/variable-substitution](https://github.com/microsoft/variable-substitution), to fix the 'node12 is being deprecated' warning.
 
 # GitHub Action for substituting variables in parameterized files ![.github/workflows/ci.yml](https://github.com/microsoft/variable-substitution/workflows/.github/workflows/ci.yml/badge.svg?branch=master)
 
