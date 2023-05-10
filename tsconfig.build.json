@@ -1,0 +1,7 @@
+{
+  "extends":"./tsconfig.json",
+  "exclude": [
+    "**/Tests",
+    "**/?(*.)+(spec|test).[jt]s?(x)",
+  ],
+}
