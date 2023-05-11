@@ -2,7 +2,7 @@
 
 This is a fork from [microsoft/variable-substitution](https://github.com/microsoft/variable-substitution), to fix the 'node12 is being deprecated' warning.
 
-# GitHub Action for substituting variables in parameterized files ![.github/workflows/ci.yml](https://github.com/microsoft/variable-substitution/workflows/.github/workflows/ci.yml/badge.svg?branch=master)
+# GitHub Action for substituting variables in parameterized files ![.github/workflows/ci.yml](https://github.com/HalloSophia/variable-substitution/workflows/.github/workflows/ci.yml/badge.svg?branch=master)
 
 With the Variable Substitution Action for GitHub, you can apply variable substitution to XML, JSON and YAML based configuration and parameter files.
 
@@ -13,7 +13,7 @@ With the Variable Substitution Action for GitHub, you can apply variable substit
 
 If you are looking for more Github Actions to deploy code or a customized image into an Azure Webapp or a Kubernetes service, consider using [Azure Actions](https://github.com/Azure/actions).
 
-The definition of this Github Action is in [action.yml](https://github.com/microsoft/variable-substitution/blob/master/action.yml).
+The definition of this Github Action is in [action.yml](https://github.com/HalloSophia/variable-substitution/blob/master/action.yml).
 
 ### Example
 See [Use variable substitution with GitHub Actions](https://docs.microsoft.com/en-us/azure/developer/github/github-variable-substitution) for an example of how to use variable substitution.
@@ -29,11 +29,11 @@ name: variable substitution in json, xml, and yml files
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
-    - uses: microsoft/variable-substitution@v1 
+    - uses: HalloSophia/variable-substitution@v1 
       with:
         files: 'Application/*.json, Application/*.yaml, ./Application/SampleWebApplication/We*.config'
       env:
