@@ -2,7 +2,7 @@
 
 This is a fork from [microsoft/variable-substitution](https://github.com/microsoft/variable-substitution), to fix the 'node12 is being deprecated' warning.
 
-# GitHub Action for substituting variables in parameterized files ![.github/workflows/ci.yml](https://github.com/HalloSophia/variable-substitution/workflows/.github/workflows/ci.yml/badge.svg?branch=master)
+# GitHub Action for substituting variables in parameterized files
 
 With the Variable Substitution Action for GitHub, you can apply variable substitution to XML, JSON and YAML based configuration and parameter files.
 
