@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SumiranAgg/filetransform.git"
+    "url": "git+https://github.com/HalloSophia/variable-substitution.git"
   },
   "keywords": [
     "action",
@@ -19,9 +19,9 @@
   "author": "Sumiran Aggarwal <suaggar@microsoft.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SumiranAgg/filetransform/issues"
+    "url": "https://github.com/HalloSophia/variable-substitution/issues"
   },
-  "homepage": "https://github.com/SumiranAgg/filetransform#readme",
+  "homepage": "https://github.com/HalloSophia/variable-substitution#readme",
   "devDependencies": {
     "@types/chai": "^4.2.4",
     "@types/js-yaml": "^4.0.5",
