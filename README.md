@@ -1,6 +1,6 @@
 # Fork of [microsoft/variable-substitution](https://github.com/microsoft/variable-substitution)
 
-This is a fork from [microsoft/variable-substitution](https://github.com/microsoft/variable-substitution), to fix the 'node12 is being deprecated' warning.
+This is a fork from [microsoft/variable-substitution](https://github.com/microsoft/variable-substitution), to fix the 'node12 is being deprecated' warning. All references have been updated and the overal package size has been reduced by transforming the action into a single file.
 
 # GitHub Action for substituting variables in parameterized files
 
