@@ -27,7 +27,7 @@
     "@types/js-yaml": "^4.0.5",
     "@types/minimatch": "^5.1.2",
     "@types/mocha": "^10.0.1",
-    "@types/node": "^20.1.2",
+    "@types/node": "^20.1.4",
     "@vercel/ncc": "^0.36.1",
     "chai": "^4.2.0",
     "mocha": "^10.2.0",
