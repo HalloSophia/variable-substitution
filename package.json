@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/HalloSophia/variable-substitution#readme",
   "devDependencies": {
-    "@types/chai": "^4.2.4",
+    "@types/chai": "^4.3.5",
     "@types/js-yaml": "^4.0.5",
     "@types/minimatch": "^5.1.2",
     "@types/mocha": "^10.0.1",
